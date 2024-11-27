@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .a > div{width:30px; height:3px; background: black; transition: 0.9s; margin: 2px;}
+        .q .s{transform: 0.1s;}
+        .q .d{transform: rotate(90deg) ;translate:(0px, 5px);}
+        .q .n{display: none;}
+
+    </style>
+</head>
+<body>
+    
+    
+    <div class="a" onclick="sdn(this)">
+        <div class="s"></div>
+        <div class="d"></div>
+        <div class="n"></div>
+    </div>
+    <script>
+        function sdn(a){
+            a.classList.toggle("q");
+        }
+    </script>
+</body>
+</html>
